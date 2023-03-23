@@ -1,0 +1,65 @@
+{
+  "quiz1": {
+    "question": "1+1=",
+    "correct": "1+1",
+    "wrong1": "3",
+    "wrong2": "4",
+    "wrong3": "5"
+  },
+  "quiz2": {
+    "question": "Ada udang dibalik...",
+    "correct": "gnadu",
+    "wrong1": "batu",
+    "wrong2": "bakwan",
+    "wrong3": "pasir"
+  },
+  "quiz3": {
+    "question": "Hasil tambang Minecraft yang bekerja seperti penghantar listrik adalah ...",
+    "correct": "Redstone",
+    "wrong1": "Lapis Lazuli",
+    "wrong2": "Emerald",
+    "wrong3": "Diamond"
+  },
+  "quiz4": {
+    "question": "... adalah Tim Dota 2 asal Indonesia",
+    "correct": "Army Geniuses",
+    "wrong1": "Fnatic",
+    "wrong2": "Geek Fam",
+    "wrong3": "Blacklist"
+  },
+  "quiz5": {
+    "question": "Manakah yang bukan merupakan aplikasi text editor?",
+    "correct": "MS Word",
+    "wrong1": "Visual Studio Code",
+    "wrong2": "Emacs",
+    "wrong3": "Vim"
+  },
+  "quiz6": {
+    "question": "Siapakah yang merupakan personil The Beatles?",
+    "correct": "John Lennon",
+    "wrong1": "John Fogerty",
+    "wrong2": "John Deacon",
+    "wrong3": "John Mayer"
+  },
+  "quiz7": {
+    "question": "Manakah di bawah ini yang bukan terkenal merupakan merek gitar?",
+    "correct": "Steinway",
+    "wrong1": "Gibson",
+    "wrong2": "Fender",
+    "wrong3": "Yamaha"
+  },
+  "quiz8": {
+    "question": "... adalah pemain futsal yang pernah bermain untuk Pendekar United",
+    "correct": "Ricardinho",
+    "wrong1": "Falcao",
+    "wrong2": "Ronaldo",
+    "wrong3": "Messi"
+  },
+  "quiz9": {
+    "question": "Manakah dibawah ini yang bukan merupakan jenis kayu",
+    "correct": "Conwood",
+    "wrong1": "Rosewood",
+    "wrong2": "Maple",
+    "wrong3": "Jati"
+  }
+}
