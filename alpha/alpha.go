@@ -157,7 +157,7 @@ func intro() {
 
 // launchQuestionAlpha adds options to every answer description
 func launchQuestionAlpha(question *Question) {
-	fmt.Println(`Pertanyaan: `, question.description)
+	fmt.Println(`Pertanyaan:`, question.description)
 	rand.Seed(time.Now().UnixNano())
 	rand.Shuffle(len(question.answers), func(i, j int) {
 		question.answers[i], question.answers[j] = question.answers[j], question.answers[i]
@@ -245,7 +245,7 @@ func launchQuizAlpha(quiz *Quiz) int {
 		}
 		score = markAnswerAlpha(quiz.questions[idx].answers, answer, score)
 
-		fmt.Println(`Skormu adalah: `, score)
+		fmt.Println(`Skormu adalah:`, score)
 		fmt.Println()
 	}
 
@@ -264,5 +264,5 @@ func main() {
 	finalScore := launchQuizAlpha(&quiz)
 
 	fmt.Println()
-	fmt.Println(`Permainan berakhir! Skormu adalah: `, finalScore)
+	fmt.Println(`Permainan berakhir! Skormu adalah:`, finalScore)
 }
