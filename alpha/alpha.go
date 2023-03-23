@@ -29,11 +29,13 @@ type Answer interface {
 	getDescription() string
 }
 
+// CorrectAnswer provides Answer interface
 type CorrectAnswer struct {
 	Option      string
 	Description string
 }
 
+// WrongAnswer provides Answer interface
 type WrongAnswer struct {
 	Option      string
 	Description string
@@ -169,6 +171,7 @@ func launchQuestionAlpha(question *Question) {
 	}
 }
 
+// formatQuizAlpha returns map of flags of every option, according to user answer
 func formatAnswerAlpha(answerRawString string) (map[string]bool, bool) {
 	opts := strings.Split(strings.TrimSuffix(answerRawString, "\n"), "/")
 	formattedAnswer := map[string]bool{"A": false, "B": false, "C": false, "D": false}
@@ -222,6 +225,7 @@ func markAnswerAlpha(availableAnswers []Answer, selectedAnswer map[string]bool, 
 	return score
 }
 
+// launchQuizAlpha prompts user feedback
 func launchQuizAlpha(quiz *Quiz) int {
 	reader := bufio.NewReader(os.Stdin)
 	score := 0
