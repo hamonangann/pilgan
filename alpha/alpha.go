@@ -173,7 +173,7 @@ func launchQuestionAlpha(question *Question) {
 
 // formatQuizAlpha returns map of flags of every option, according to user answer
 func formatAnswerAlpha(answerRawString string) (map[string]bool, bool) {
-	opts := strings.Split(strings.TrimSuffix(answerRawString, "\n"), "/")
+	opts := strings.Split(strings.TrimSuffix(strings.ToUpper(answerRawString), "\n"), "/")
 	formattedAnswer := map[string]bool{"A": false, "B": false, "C": false, "D": false}
 	for _, opt := range opts {
 		if opt != "A" && opt != "B" && opt != "C" && opt != "D" { // only ABCD valid option
