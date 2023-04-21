@@ -130,7 +130,7 @@ func generateQuiz(jsonMap map[string]any) (Quiz, error) {
 // readQuizAlpha reads from raw JSON file
 func readQuizAlpha() map[string]any {
 	// Extract JSON file
-	jsonString, err := os.ReadFile("question.json")
+	jsonString, err := os.ReadFile("cmd/alpha-cli/question.json")
 	if err != nil {
 		log.Fatal(err)
 	}
